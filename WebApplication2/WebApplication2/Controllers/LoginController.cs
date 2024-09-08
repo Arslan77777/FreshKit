@@ -23,7 +23,7 @@ namespace WebApplication2.Controllers
         }
         [HttpPost("Registration")]
 
-        public IActionResult Registration(User user)
+        public IActionResult Registration([FromBody] User user)
         {
             _dbcontext.Users.Add(user);
             bool Result=  _dbcontext.SaveChanges()>0;
@@ -45,9 +45,23 @@ namespace WebApplication2.Controllers
             return NotFound();
         }
         [Authorize]
+        [HttpPost("GetUserDetails")]
+
+        public IActionResult GetUserDetails(int UserID)
+        {
+            var user = _dbcontext.Users.Find(UserID);
+            if (user != null)
+            {
+              
+                return Ok(user);
+
+            }
+            return NotFound();
+        }
+        [Authorize]
 
         [HttpPost("UpdateUser")]
-        public IActionResult UpdateUser(User user) {
+        public IActionResult UpdateUser([FromBody] User user) {
         
             _dbcontext.Users.Update(user);
             bool Result= _dbcontext.SaveChanges()>0;

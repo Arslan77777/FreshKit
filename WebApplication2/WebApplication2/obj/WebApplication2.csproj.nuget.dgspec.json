@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SmartCom\\Source\\Repos\\Arslan77777\\FreshKit\\WebApplication2\\WebApplication2\\WebApplication2.csproj": {}
+    "C:\\Users\\SmartCom\\source\\repos\\Arslan77777\\FreshKit\\WebApplication2\\WebApplication2\\WebApplication2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SmartCom\\Source\\Repos\\Arslan77777\\FreshKit\\WebApplication2\\WebApplication2\\WebApplication2.csproj": {
+    "C:\\Users\\SmartCom\\source\\repos\\Arslan77777\\FreshKit\\WebApplication2\\WebApplication2\\WebApplication2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SmartCom\\Source\\Repos\\Arslan77777\\FreshKit\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+        "projectUniqueName": "C:\\Users\\SmartCom\\source\\repos\\Arslan77777\\FreshKit\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
         "projectName": "WebApplication2",
-        "projectPath": "C:\\Users\\SmartCom\\Source\\Repos\\Arslan77777\\FreshKit\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+        "projectPath": "C:\\Users\\SmartCom\\source\\repos\\Arslan77777\\FreshKit\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
         "packagesPath": "C:\\Users\\SmartCom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SmartCom\\Source\\Repos\\Arslan77777\\FreshKit\\WebApplication2\\WebApplication2\\obj\\",
+        "outputPath": "C:\\Users\\SmartCom\\source\\repos\\Arslan77777\\FreshKit\\WebApplication2\\WebApplication2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SmartCom\\AppData\\Roaming\\NuGet\\NuGet.Config",

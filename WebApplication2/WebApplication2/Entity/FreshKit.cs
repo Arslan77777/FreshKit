@@ -15,7 +15,9 @@ namespace WebApplication2.Entity
 
         }
         public DbSet<User> Users { get; set; }
-        public DbSet<Order> Orders { get; set; }
+        public DbSet<Orderlits> Orderlits { get; set; }
+        public DbSet<OrderUserInfo> OrderUserInfo { get; set; }
+
         public DbSet<Cart> Carts { get; set; }
         public DbSet<Shirsts> Shakes { get; set; }
     }
